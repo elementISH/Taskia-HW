@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Muli-regular";
+  src: url("../fonts/muli/Muli-Regular.eot"), url("../fonts/muli/Muli-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/muli/Muli-Regular.woff2") format("woff2"), url("../fonts/muli/Muli-Regular.woff") format("woff"), url("../fonts/muli/Muli-Regular.ttf") format("truetype"), url("../fonts/muli/Muli-Regular.svg") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Poppins-regular";
+  src: url("../fonts/Poppins/Poppins-Regular.eot"), url("../fonts/Poppins/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins/Poppins-Regular.svg") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Montserrat-regular";
+  src: url("../fonts/Montserrat/Montserrat-Regular.eot"), url("../fonts/Montserrat/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat-Regular.svg") format("svg");
+  /* Legacy iOS */
+}
+.container .header .header__banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 56px;
+}
+.container .header .header__banner .header__logo {
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 0.38;
+  letter-spacing: -1px;
+  color: #525ffb;
+  font-family: "Poppins-regular";
+}
+.container .header__details {
+  color: #1e1c24;
+  font-family: Poppins-regular;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.39;
+  letter-spacing: -0.49px;
+  text-align: left;
+  padding-top: 210px;
+}
+.container .header__details .header__content {
+  color: #BABABC;
+  font-size: 20px;
+  font-family: "Muli-regular";
+}
+.container .header__details .header__validation {
+  padding-top: 5px;
+}
+.container .header__delivery .header__delivery-image {
+  margin-left: 775px;
+  margin-top: -450px;
+  width: 600px;
+  height: 600px;
+}
+
+.footer__validation {
+  margin-left: 350px;
+  margin-top: 70px;
+}
+
+.footer__validation__no-email-text,
+.footer__validation__invalid-text,
+.footer__validation__valid-text {
+  font-family: "Poppins-regular";
+  font-weight: 900;
+}
+
+@media (max-width: 1250px) {
+  .header br {
+    display: inline;
+  }
+
+  .container .header__delivery .header__delivery-image {
+    margin-left: 60px;
+    margin-top: 88px;
+  }
+}
+@media (min-width: 1920px) {
+  .footer__validation {
+    margin-left: 520px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
