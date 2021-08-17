@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/styling/css/components/generic.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styling/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/styling/fonts/vendors/icomoon/style.css">
+</head>
+<body>
+   <div class="home-page">
+       <div class="container">
+        <header class="header">
+
+          <div class="header__banner">
+            <div class="header__logo">
+              <span>Taskia</span>
+            </div>
+            <div class="header__btn">
+                <button class="header__btn__try-btn">Try Free</button>
+            </div>
+          </div>
+          <div class="header__details">  
+          <div class="header__title">
+            Task management <br> and lists Tool
+          </div>
+          <div class="header__content">
+            We believe that designing products and services in close <br>
+            partnership with our clients is the only way to have a real <br>
+            impact on their business.
+          </div>
+          <section class="header__validation">
+            <span class="icon-no-email header-icon-no-email"></span>
+            <span class="icon-invalid header-icon-invalid"></span>
+            <span class="icon-valid header-icon-valid"></span>
+            <input class="header__validation__email-form" onkeyup="validate('.header__validation__email-form')" placeholder="Name@company.com">
+            <button class="header__validation__submit">Try Free</button>
+            <section class="header__error-messages-container">
+            <div class="header__validation__valid-text" style="background: green; color: whitesmoke; font-size: 30px;">email is valid!</div>
+            <div class="header__validation__invalid-text" style="background: red; color: wheat; font-size: 30px;">email is invalid!</div>
+            <div class="header__validation__no-email-text" style="background: wheat; color: black; font-size: 30px;">please enter an email!</div>
+            </section>
+          </section>
+          </div>
+        
+      </header>
+        <div class="header__delivery">
+          <img src="../Taskia-hw/assets/images/delivery-preview.png" class="header__delivery-image" alt="delivery-preview">
+          </div>
+
+          <section class="feature-service">
+            <h1 class="feature-service__header">Featured Service that We Provide</h1>
+            <div class="listing-wrapper">
+                <div class="listing-card col-md-1" id="card1">
+                    <div class="listing-card__img" id="img1">
+                        <img src="../Taskia-hw/assets/images/card1.png" alt="card1">
+                    </div>
+                    <div class="listing-card__content" style="color: white; padding-top: 25px">
+                        <h3 class="listing-card__content__header">Keep tasks in <br> one place</h3>
+                         <p  class="listing-card__content__brief">Save time, avoid losing work and <br> information, delegate, and track tasks to <br> stay on schedule</p>
+                    </div>
+                </div>
+                <div class="listing-card col-md-2" style="background-color: #e9f0ff;" id="card2">
+                    <div class="listing-card__img" id="img2">
+                        <img src="../Taskia-hw/assets/images/card2.png" alt="card2">
+                    </div>
+                    <div class="listing-card__content" style="padding-top: 33px">
+                        <h3 class="listing-card__content__header">Keep tasks in <br> one place</h3>
+                         <p  class="listing-card__content__brief">Save time, avoid losing work and <br> information, delegate, and track tasks to <br> stay on schedule</p>
+                    </div>
+                </div>
+                <div class="listing-card col-md-3" style="background-color: #ffe7aa;" id="card3">
+                    <div class="listing-card__img" id="img3">
+                        <img src="../Taskia-hw/assets/images/card3.png" alt="card 3">
+                    </div>
+                    <div class="listing-card__content">
+                        <h3 class="listing-card__content__header">Keep tasks in <br> one place</h3>
+                         <p  class="listing-card__content__brief">Save time, avoid losing work and <br> information, delegate, and track tasks to <br> stay on schedule</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="more-info">
+            <div class="more-info__data-display">
+              <div class="more-info__schedule-board">
+                <h3 class="more-info__schedule-board__header">Why do you need <br> task management <br> software?</h3>
+                <p class="more-info__schedule-board__brief">Do you waste time organizing sticky notes, searching your email <br> and apps for to-dos, and figuring out what to work on first? <br> Then you need one solution to prioritize your tasks, manage <br> your time, and meet your deadlines.</p>
+                <button class="more-info__schedule-board__btn__learn-more">Learn More</button>
+                    </div>
+                    <img src="../Taskia-hw/assets/images/data-board.png" alt="schedule board" class="more-info__schedule-board__img">
+                    <div class="more-info__data-hologram">
+                        <h3 class="more-info__data-hologram__header">Seamless Team <br> Workflow & Efficient <br> Task Management</h3>
+                        <p class="more-info__data-hologram__brief">Do you waste time organizing sticky notes, searching your email <br> and apps for to-dos, and figuring out what to work on first? <br> Then you need one solution to prioritize your tasks, manage <br> your time, and meet your deadlines.</p>
+                    <div class="more-info__data-hologram__store-logos">
+                        <img src="../Taskia-hw/assets/images/apple-logo.png" alt="apple logo" class="more-info__data-hologram__store-logos__apple-logo">
+                        <img src="../Taskia-hw/assets/images/google-play-logo.png" alt="google play logo" class="more-info__data-hologram__store-logos__google-play-logo">
+                    </div>
+                     <img src="../Taskia-hw/assets/images/data-hologram.png" alt="data" class="more-info__data-hologram__img">
+              </div> 
+            </div>
+    </section> 
+
+    <section class="try-our-service">
+      <div class="try-our-service__container">
+        <header class="try-our-service__container__header">
+        <h3 class="try-our-service__container__header-content">
+          Trust us and feel free to try our service
+        </h3>
+      <section class="try-our-service__container__customers">
+        <div class="try-our-service__container__customers__one-size140">
+        <img src="../Taskia-hw/assets/images/lady-customer-one.png" alt="customer" class="try-our-service__container__customers__one" id="img1">
+        </div>
+        <div class="try-our-service__container__customers__two-size110">
+        <img src="../Taskia-hw/assets/images/lady-customer-two.png" alt="customer" class="try-our-service__container__customers__two">
+        </div>
+        <div class="try-our-service__container__customers__two-size88">
+        <img src="../Taskia-hw/assets/images/lady-customer-two.png" alt="customer" class="try-our-service__container__customers__two">
+        </div>
+        <div class="customer-seperator"></div>
+        <div class="try-our-service__container__customers__two-size62">
+        <img src="../Taskia-hw/assets/images/lady-customer-two.png" alt="customer" class="try-our-service__container__customers__two" id="img2">
+        </div>
+        <div class="try-our-service__container__customers__one-size72">
+        <img src="../Taskia-hw/assets/images/lady-customer-one.png" alt="customer" class="try-our-service__container__customers__one">
+        </div>
+        <div class="try-our-service__container__customers__one-size140-2">
+        <img src="../Taskia-hw/assets/images/lady-customer-one.png" alt="customer" class="try-our-service__container__customers__one">
+        </div>
+      </section>
+        <div class="try-our-service__number">100000</div>
+    </header>
+    <footer class="try-our-service__container__footer">
+      <h3 class="try-our-service__container__footer-content">
+        Get better work done
+      </h3>
+      <p class="try-our-service__container__footer-brief">See why millions of people across 195 countries <br> use Taskia.</p>
+      <section class="footer__validation">
+        <span class="icon-no-email footer-icon-no-email"></span>
+        <span class="icon-invalid footer-icon-invalid"></span>
+        <span class="icon-valid footer-icon-valid"></span>
+        <br>
+        <input class="footer__validation__email-form" onkeyup="validateFooter('.footer__validation__email-form')" placeholder="Name@company.com">
+        <button class="footer__validation__submit">Try Free</button>
+        <section class="footer__error-messages-container">
+        <div class="footer__validation__valid-text" style="background: green; color: whitesmoke; width: 600px; font-size: 30px;">email is valid!</div>
+        <div class="footer__validation__invalid-text" style="background: red; color: wheat; width: 600px; font-size: 30px;">email is invalid!</div>
+        <div class="footer__validation__no-email-text" style="background: wheat; color: black; width: 600px; font-size: 30px;">please enter an email!</div>
+        </section>
+      </section>
+    </footer>
+                   </div>   
+                </section> 
+              </div>
+            </div>
+   <script src="../Taskia-hw/assets/js/script.js"></script>
+</body>
+</html>
