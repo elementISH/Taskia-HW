@@ -190,12 +190,12 @@ $(document).ready(function() {
   }
   var slideIndex = 0;   
   function responsiveStyle(){
-    var img1 = document.getElementById('customer1');
-    var img2 = document.getElementById('customer2');
+    let img1 = document.getElementById('customer1');
+    let img2 = document.getElementById('customer2');
     img1.src = '../Taskia-hw/assets/images/lady-customer-two.png';
     img2.src = '../Taskia-hw/assets/images/lady-customer-one.png'
-    var i;
-    var slides = document.getElementsByClassName("listing-card");
+    let i;
+    let slides = document.getElementsByClassName("listing-card");
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
     }
@@ -204,18 +204,18 @@ $(document).ready(function() {
     slides[slideIndex-1].style.display = "block";  
     timeOut = setTimeout(responsiveStyle, 4000);
   }
-  var x = window.matchMedia("(max-width: 1250px)")
-  myFunction(x) // Call listener function at run time
-  x.addListener(myFunction) // Attach listener function on state changes
+  let media = window.matchMedia("(max-width: 1250px)")
+  myFunction(media) // Call listener function at run time
+  media.addListener(myFunction) // Attach listener function on state changes
 
   function defaultStyle(){
-    var img1 = document.getElementById('customer1');
-    var img2 = document.getElementById('customer2');
+    let img1 = document.getElementById('customer1');
+    let img2 = document.getElementById('customer2');
     img2.src = '../Taskia-hw/assets/images/lady-customer-two.png';
     img1.src = '../Taskia-hw/assets/images/lady-customer-one.png'
     clearTimeout(timeOut)
-    var i;
-    var slides = document.getElementsByClassName("listing-card");
+    let i;
+    let slides = document.getElementsByClassName("listing-card");
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "block";  
       slides[i].style.marginLeft = '0px';
