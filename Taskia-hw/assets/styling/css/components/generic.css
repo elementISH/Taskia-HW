@@ -1,0 +1,545 @@
+@font-face {
+  font-family: "Muli-regular";
+  src: url("../../fonts/muli/Muli-Regular.eot"), url("../../fonts/muli/Muli-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/muli/Muli-Regular.woff2") format("woff2"), url("../../fonts/muli/Muli-Regular.woff") format("woff"), url("../../fonts/muli/Muli-Regular.ttf") format("truetype"), url("../../fonts/muli/Muli-Regular.svg") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Poppins-regular";
+  src: url("../../fonts/Poppins/Poppins-Regular.eot"), url("../../fonts/Poppins/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("../../fonts/Poppins/Poppins-Regular.woff") format("woff"), url("../../fonts/Poppins/Poppins-Regular.ttf") format("truetype"), url("../../fonts/Poppins/Poppins-Regular.svg") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Montserrat-regular";
+  src: url("../../fonts/Montserrat/Montserrat-Regular.eot"), url("../../fonts/Montserrat/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"), url("../../fonts/Montserrat/Montserrat-Regular.woff") format("woff"), url("../../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"), url("../../fonts/Montserrat/Montserrat-Regular.svg") format("svg");
+  /* Legacy iOS */
+}
+body {
+  background-image: url("../../../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: calc(100% - 260px);
+  margin: 0 auto;
+}
+
+.header__btn__try-btn {
+  font-family: "Muli-regular";
+  font-size: 20px;
+  line-height: 1.35;
+  color: #525ffb;
+  padding: 10px 6px;
+  min-width: 150px;
+  border-radius: 100px;
+  border: 2px solid #525ffb;
+  background-color: transparent;
+}
+.header__btn__try-btn:focus-visible {
+  outline: 0;
+}
+
+.header__validation {
+  margin-bottom: 10px;
+}
+
+.header__validation__email-form {
+  border-radius: 100px;
+  border: solid 2px #ebebeb;
+  padding: 14px 115px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: "Montserrat-regular";
+}
+.header__validation__email-form:focus-visible {
+  outline: 0;
+}
+
+.footer__validation__email-form {
+  border-radius: 100px;
+  border: solid 2px #ebebeb;
+  padding: 14px 115px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: "Montserrat-regular";
+}
+.footer__validation__email-form:focus-visible {
+  outline: 0;
+}
+
+.header__validation__valid-text,
+.header__validation__invalid-text,
+.header__validation__no-email-text,
+.footer__validation__valid-text,
+.footer__validation__invalid-text,
+.footer__validation__no-email-text {
+  padding-left: 10px;
+  width: 600px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #BABABC;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #BABABC;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #BABABC;
+}
+
+.header__validation__submit {
+  padding: 14px 60px;
+  border-radius: 100px;
+  margin-left: 20px;
+  font-family: "Poppins-regular";
+  background-color: #525ffb;
+  color: #ebebeb;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+
+.customer-seperator {
+  display: none;
+}
+
+.footer__validation__submit {
+  padding: 14px 60px;
+  border-radius: 100px;
+  margin-left: 20px;
+  font-family: "Poppins-regular";
+  background-color: #525ffb;
+  color: #ebebeb;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+
+.feature-service__header {
+  padding-top: 223px;
+  font-size: 50px;
+  font-family: "Poppins-regular";
+  text-align: center;
+}
+
+.listing-wrapper {
+  padding-top: 65px;
+  margin-left: -45px;
+  display: flex;
+  justify-content: space-between;
+}
+.listing-wrapper #card1 {
+  margin-left: 45px;
+}
+.listing-wrapper #card2 {
+  margin-left: -73px;
+}
+.listing-wrapper #card3 {
+  margin-left: -75px;
+}
+.listing-wrapper .listing-card {
+  background-color: #525ffb;
+  border-radius: 11px;
+  height: 500px;
+  width: 350px;
+}
+.listing-wrapper .listing-card .listing-card__content {
+  text-align: center;
+}
+.listing-wrapper .listing-card .listing-card__content .listing-card__content__header {
+  font-size: 30px;
+  font-family: "Poppins-regular";
+}
+.listing-wrapper .listing-card .listing-card__content .listing-card__content__brief {
+  font-size: 16px;
+  font-family: "Muli-regular";
+}
+.listing-wrapper .listing-card .listing-card__img {
+  padding-top: 22px;
+  padding-left: 50px;
+}
+
+#img3 {
+  padding-left: 15px;
+}
+
+.more-info {
+  padding-top: 350px;
+  max-width: 3000px;
+}
+.more-info .more-info__schedule-board__img {
+  margin-top: -2000px;
+  padding-bottom: 15px;
+  margin-left: -5px;
+}
+.more-info .more-info__schedule-board {
+  padding-left: 80px;
+}
+.more-info .more-info__schedule-board .more-info__schedule-board__header {
+  color: #1e1c24;
+  font-family: "Poppins-regular";
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  padding-left: 690px;
+  padding-bottom: 50px;
+}
+.more-info .more-info__schedule-board .more-info__schedule-board__brief {
+  color: #BABABC;
+  font-family: "Muli-regular";
+  line-height: 1.67;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 690px;
+  margin-top: -60px;
+}
+.more-info .more-info__schedule-board .more-info__schedule-board__btn__learn-more {
+  padding: 23px 85px;
+  border-radius: 100px;
+  font-family: "Poppins-regular";
+  background-color: #525ffb;
+  color: #ebebeb;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  margin-left: 700px;
+  margin-top: 15px;
+}
+.more-info .more-info__data-hologram {
+  margin-top: 400px;
+}
+.more-info .more-info__data-hologram .more-info__data-hologram__img {
+  margin-left: 525px;
+  margin-top: -525px;
+}
+.more-info .more-info__data-hologram .more-info__data-hologram__header {
+  color: #1e1c24;
+  font-family: "Poppins-regular";
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+}
+.more-info .more-info__data-hologram .more-info__data-hologram__brief {
+  color: #BABABC;
+  font-family: "Muli-regular";
+  line-height: 1.67;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+}
+.more-info .more-info__data-hologram .more-info__data-hologram__store-logos {
+  padding-bottom: 100px;
+}
+.more-info .more-info__data-hologram .more-info__data-hologram__store-logos .more-info__data-hologram__store-logos__apple-logo {
+  width: 52px;
+  height: 55px;
+}
+.more-info .more-info__data-hologram .more-info__data-hologram__store-logos .more-info__data-hologram__store-logos__google-play-logo {
+  width: 122px;
+  height: 55px;
+}
+
+.try-our-service .try-our-service__container .try-our-service__container__header {
+  color: #1e1c24;
+  font-family: "Poppins-regular";
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  text-align: center;
+}
+.try-our-service .try-our-service__container .try-our-service__container__header .try-our-service__number {
+  font-family: "Poppins-regular";
+  padding-left: 30px;
+  font-size: 150px;
+  font-weight: 800;
+  line-height: 0.4;
+  color: #525ffb;
+  text-align: center;
+  margin-top: -300px;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size110 {
+  margin-left: 1135px;
+  margin-top: -200px;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size110 .try-our-service__container__customers__two {
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size88 {
+  margin-left: -750px;
+  margin-top: 160px;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size88 .try-our-service__container__customers__two {
+  width: 88px;
+  height: 88px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size62 {
+  margin-left: 770px;
+  margin-top: -160px;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size62 .try-our-service__container__customers__two {
+  width: 62px;
+  height: 62px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size72 {
+  margin-left: -1100px;
+  margin-top: 220px;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size72 .try-our-service__container__customers__one {
+  width: 72px;
+  height: 65px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size140-2 {
+  margin-left: 1100px;
+  margin-top: -150px;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size140-2 .try-our-service__container__customers__one {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size140 {
+  margin-left: -1100px;
+}
+.try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size140 .try-our-service__container__customers__one {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.try-our-service .try-our-service__container .try-our-service__container__footer {
+  margin-top: 385px;
+  height: 500px;
+}
+.try-our-service .try-our-service__container .try-our-service__container__footer .try-our-service__container__footer-content {
+  color: #1e1c24;
+  font-family: "Poppins-regular";
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  text-align: center;
+}
+.try-our-service .try-our-service__container .try-our-service__container__footer .try-our-service__container__footer-brief {
+  color: #BABABC;
+  font-family: "Muli-regular";
+  line-height: 1.67;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  text-align: center;
+  font-size: 27px;
+}
+
+@media (min-width: 1920px) {
+  .listing-wrapper {
+    margin-left: 155px;
+  }
+
+  .more-info__data-hologram {
+    margin-left: 380px;
+  }
+}
+@media (max-width: 1250px) {
+  .header__details {
+    margin-left: 60px;
+  }
+
+  .home-page {
+    margin-left: 0;
+  }
+
+  .container {
+    width: 700px;
+  }
+
+  .try-our-service .try-our-service__container .try-our-service__container__footer {
+    margin-top: 250px;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__footer .footer__validation {
+    margin-left: 70px;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__header {
+    color: #1e1c24;
+    font-family: "Poppins-regular";
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-align: center;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__header .try-our-service__number {
+    font-family: "Poppins-regular";
+    padding-left: 30px;
+    font-size: 150px;
+    font-weight: 800;
+    line-height: 0.4;
+    color: #525ffb;
+    text-align: center;
+    margin-top: -320px;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size110 {
+    margin-left: 0px;
+    margin-top: 0px;
+    display: inline-block;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size110 .try-our-service__container__customers__two {
+    width: 120px;
+    height: 120px;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size88 {
+    margin-left: 0px;
+    margin-top: 0px;
+    display: inline-block;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size88 .try-our-service__container__customers__two {
+    width: 120px;
+    height: 120px;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size62 {
+    margin-left: 0px;
+    margin-top: 0px;
+    display: inline-block;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__two-size62 .try-our-service__container__customers__two {
+    width: 120px;
+    height: 120px;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size72 {
+    margin-left: 0px;
+    margin-top: 0px;
+    display: inline-block;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size72 .try-our-service__container__customers__one {
+    width: 120px;
+    height: 120px;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size140-2 {
+    margin-left: 0px;
+    margin-top: 0px;
+    display: inline-block;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size140-2 .try-our-service__container__customers__one {
+    width: 120px;
+    height: 120px;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size140 {
+    margin-left: 0px;
+    display: inline-block;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__customers .try-our-service__container__customers__one-size140 .try-our-service__container__customers__one {
+    width: 120px;
+    height: 120px;
+  }
+  .try-our-service .try-our-service__container .customer-seperator {
+    display: block;
+    height: 300px;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__footer {
+    margin-top: 385px;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__footer .try-our-service__container__footer-content {
+    color: #1e1c24;
+    font-family: "Poppins-regular";
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    text-align: center;
+  }
+  .try-our-service .try-our-service__container .try-our-service__container__footer .try-our-service__container__footer-brief {
+    color: #BABABC;
+    font-family: "Muli-regular";
+    line-height: 1.67;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    text-align: center;
+    font-size: 27px;
+  }
+
+  .try-our-service__container__header {
+    margin-top: 200px;
+  }
+  .try-our-service__container__header .try-our-service__number {
+    margin-top: 150px;
+  }
+
+  .listing-wrapper {
+    margin-left: calc(100% - 520px);
+  }
+  .listing-wrapper #img3 {
+    padding-left: 10px;
+  }
+
+  .header__error-messages-container {
+    margin-left: 0px;
+  }
+
+  .more-info {
+    margin-top: -1200px;
+    max-width: 3000px;
+  }
+  .more-info .more-info__schedule-board__header {
+    margin-left: -630px;
+    margin-top: 1000px;
+  }
+  .more-info .more-info__schedule-board .more-info__schedule-board__brief {
+    text-align: left;
+    margin-left: 60px;
+  }
+  .more-info .more-info__schedule-board .more-info__schedule-board__btn__learn-more {
+    margin-top: 40px;
+    margin-left: 130px;
+  }
+  .more-info .more-info__schedule-board__img {
+    margin-top: 30px;
+    margin-left: -10px;
+  }
+  .more-info .more-info__data-hologram .more-info__data-hologram__header {
+    margin-top: -250px;
+    margin-left: 140px;
+  }
+  .more-info .more-info__data-hologram .more-info__data-hologram__brief {
+    margin-left: 145px;
+  }
+  .more-info .more-info__data-hologram .more-info__data-hologram__img {
+    margin-left: -5px;
+    margin-top: 30px;
+  }
+  .more-info .more-info__data-hologram .more-info__data-hologram__store-logos {
+    margin-left: 150px;
+  }
+}
+@media (max-width: 650px) {
+  .listing-card {
+    padding-left: 1px;
+  }
+}
+
+/*# sourceMappingURL=generic.css.map */
