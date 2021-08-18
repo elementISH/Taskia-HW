@@ -160,25 +160,6 @@ $(document).ready(function() {
     return;
   }
 
-  // var x = window.matchMedia("(max-width: 700px)")
-  // showSlides(x) // Call listener function at run time
-  // x.add(showSlides) // Attach listener function on state changes
-  // var slideIndex = 0;    
-
-  // function showSlides() {
-  //   if(x.matches){
-  //   var i;
-  //   var slides = document.getElementsByClassName("listing-card");
-  //   for (i = 0; i < slides.length; i++) {
-  //     slides[i].style.display = "none";  
-  //   }
-  //   slideIndex++;
-  //   if (slideIndex > slides.length) {slideIndex = 1}    
-  //   slides[slideIndex-1].style.display = "block";  
-  //   setTimeout(showSlides, 4000);
-  // } 
-  // }
-
   let timeOut;
 
   function myFunction(x) {
@@ -188,7 +169,7 @@ $(document).ready(function() {
       return defaultStyle();
     }
   }
-  var slideIndex = 0;   
+  let slideIndex = 0;   
   function responsiveStyle(){
     let img1 = document.getElementById('customer1');
     let img2 = document.getElementById('customer2');
