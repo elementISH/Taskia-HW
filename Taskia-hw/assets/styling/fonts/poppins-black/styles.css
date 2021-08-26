@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'poppins.black';
+  src: url(./poppins.black.eot);
+  src: url(./poppins.black.eot?#iefix) format('embedded-opentype'),
+       url(./poppins.black.woff2) format('woff2'),
+       url(./poppins.black.ttf) format('truetype'),
+       url(./poppins.black.woff) format('woff'),
+       url(./poppins.black.svg#poppins.black) format('svg'),
+       url(./poppins.black.otf) format('otf');
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url(./Poppins-Regular.eot);
+  src: url(./Poppins-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./Poppins-Regular.svg#Poppins-Regular) format('svg'),
+       url(./Poppins-Regular.otf) format('otf'),
+       url(./Poppins-Regular.ttf) format('truetype'),
+       url(./Poppins-Regular.woff) format('woff'),
+       url(./Poppins-Regular.woff2) format('woff2');
+}
