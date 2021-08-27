@@ -538,6 +538,9 @@ body {
     margin-left: -630px;
     margin-top: 1000px;
   }
+  .more-info .more-info__schedule-board {
+    margin-left: 0px;
+  }
   .more-info .more-info__schedule-board .more-info__schedule-board__brief {
     text-align: left;
     margin-left: 60px;
@@ -549,6 +552,9 @@ body {
   .more-info .more-info__schedule-board__img {
     margin-top: 30px;
     margin-left: -10px;
+  }
+  .more-info .more-info__data-hologram {
+    margin-left: 0px;
   }
   .more-info .more-info__data-hologram .more-info__data-hologram__header {
     margin-top: -250px;
